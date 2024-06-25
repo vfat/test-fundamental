@@ -171,20 +171,15 @@ Bersepeda adalah salah satu bentuk olahraga yang memiliki banyak manfaat bagi ke
 
 **Soal 1:**
 Sebutkan tiga manfaat fisik dari bersepeda yang disebutkan dalam artikel.
-- **Jawaban yang Diharapkan:** Meningkatkan kapasitas paru-paru, menguatkan otot, dan memperbaiki sirkulasi darah.
 
 **Soal 2:**
 Bagaimana bersepeda dapat membantu menurunkan risiko penyakit kronis?
-- **Jawaban yang Diharapkan:** Bersepeda secara teratur dapat menurunkan risiko penyakit kronis seperti penyakit jantung, diabetes, dan tekanan darah tinggi.
 
 **Soal 3:**
 Jelaskan dua manfaat bersepeda bagi kesehatan mental menurut artikel.
-- **Jawaban yang Diharapkan:** Bersepeda dapat mengurangi stres dan meningkatkan mood.
 
 **Soal 4:**
 Mengapa bersepeda di luar ruangan bermanfaat bagi kesehatan tulang?
-- **Jawaban yang Diharapkan:** Bersepeda di luar ruangan memberikan kesempatan untuk mendapatkan paparan sinar matahari yang baik untuk kesehatan tulang.
 
 **Soal 5:**
 Mengapa bersepeda disebut sebagai aktivitas yang menyenangkan dalam artikel?
-- **Jawaban yang Diharapkan:** Bersepeda disebut menyenangkan karena selain memberikan manfaat kesehatan, aktivitas ini juga dapat dinikmati sebagai bentuk rekreasi.
