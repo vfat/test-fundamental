@@ -88,7 +88,7 @@
 - C. Menggunakan Paint
 - D. Menggunakan Notepad
 
-===
+---
 
 ### Soal 1: Mengelola Email
 
