@@ -167,7 +167,6 @@ Apa pendapat utama penulis tentang pendidikan online?
 
 Bersepeda adalah salah satu bentuk olahraga yang memiliki banyak manfaat bagi kesehatan. Aktivitas ini tidak hanya menyenangkan, tetapi juga baik untuk kebugaran fisik dan mental. Bersepeda secara teratur dapat meningkatkan kapasitas paru-paru, menguatkan otot, dan memperbaiki sirkulasi darah. Selain itu, bersepeda juga dapat membantu menurunkan risiko penyakit kronis seperti penyakit jantung, diabetes, dan tekanan darah tinggi. Dari segi mental, bersepeda dapat mengurangi stres, meningkatkan mood, dan membantu melawan depresi. Bersepeda di luar ruangan juga memberikan kesempatan untuk menikmati alam dan mendapatkan paparan sinar matahari yang baik untuk kesehatan tulang.
 
-### Soal Literasi:
 
 **Soal 1:**
 Sebutkan tiga manfaat fisik dari bersepeda yang disebutkan dalam artikel.
