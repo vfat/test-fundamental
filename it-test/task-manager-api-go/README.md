@@ -1,20 +1,4 @@
 
-# Task Manager API - Go (Golang)
-
-## Deskripsi
-Ini adalah aplikasi **Task Manager API** menggunakan bahasa **Go (Golang)**.  
-API ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) terhadap daftar tugas.
-
-Data disimpan **sementara di memory** (slice).
-
----
-
-## Teknologi yang Digunakan
-- **Golang 1.18+**
-- **Gin Web Framework** (`github.com/gin-gonic/gin`)
-- **UUID Generator** (`github.com/google/uuid`)
-
----
 
 ## Persyaratan
 - Go 1.18 atau lebih tinggi
@@ -31,57 +15,51 @@ Data disimpan **sementara di memory** (slice).
    ```
 
 
+# 📚 Instruksi Tes Backend Development - Go (Golang)
+
+## 🎯 Tujuan Tes
+Mengukur kemampuan Anda dalam:
+- Membuat REST API sederhana menggunakan Go
+- Menyusun struktur project backend yang rapi
+- Menerapkan validasi input dan error handling
+- Menulis clean code dan dokumentasi sederhana
 
 ---
 
-## Struktur Project
+## 🛠️ Deskripsi Proyek
 
-```
-task-manager-api-go/
-├── controllers/
-│   └── task_controller.go    # Logika endpoint API
-├── models/
-│   └── task.go                # Struktur data Task
-├── routes/
-│   └── routes.go              # Routing endpoint
-├── main.go                    # Entry point server
-├── go.mod                     # Modul Go
-├── go.sum                     # Modul dependencies
-└── README.md                  # Dokumentasi project
-```
+Buatlah sebuah **Task Manager API** sederhana menggunakan **Golang**.
+
+Aplikasi ini harus memungkinkan pengguna untuk:
+- Menambahkan tugas baru
+- Melihat semua tugas
+- Melihat detail tugas berdasarkan ID
+- Memperbarui tugas
+- Menghapus tugas
+
+**Data tugas** disimpan **sementara di memory** (gunakan slice atau map).
 
 ---
 
-## API Endpoints
+## 🧩 Fitur yang Harus Dibuat
 
-| Method | Endpoint | Keterangan |
-|:-------|:---------|:-----------|
-| POST | `/tasks` | Membuat tugas baru |
-| GET | `/tasks` | Menampilkan semua tugas |
-| GET | `/tasks/:id` | Menampilkan detail tugas berdasarkan ID |
-| PUT | `/tasks/:id` | Memperbarui tugas berdasarkan ID |
-| DELETE | `/tasks/:id` | Menghapus tugas berdasarkan ID |
+| Method | Endpoint        | Deskripsi |
+|:-------|:----------------|:----------|
+| POST   | `/tasks`         | Menambahkan tugas baru |
+| GET    | `/tasks`         | Melihat semua tugas |
+| GET    | `/tasks/:id`     | Melihat detail tugas berdasarkan ID |
+| PUT    | `/tasks/:id`     | Memperbarui tugas berdasarkan ID |
+| DELETE | `/tasks/:id`     | Menghapus tugas berdasarkan ID |
 
 ---
 
-## Contoh Request & Response
+## 📦 Struktur Data Tugas (Task)
 
-### 1. Tambah Tugas Baru (POST `/tasks`)
-
-**Request Body:**
-```json
-{
-  "title": "Belajar Golang",
-  "description": "Mempelajari dasar REST API dengan Go"
-}
-```
-
-**Response:**
 ```json
 {
   "id": "uuid",
-  "title": "Belajar Golang",
-  "description": "Mempelajari dasar REST API dengan Go",
+  "title": "Judul Tugas",
+  "description": "Deskripsi Tugas",
   "completed": false,
   "created_at": "timestamp",
   "updated_at": "timestamp"
@@ -90,23 +68,42 @@ task-manager-api-go/
 
 ---
 
-## Error Handling
+## 📌 Persyaratan Teknis
 
-- **400 Bad Request**: Input tidak valid (contoh: title kosong)
-- **404 Not Found**: ID tugas tidak ditemukan
+- Gunakan **Go 1.18** atau lebih tinggi.
+- Gunakan **Gin Web Framework** (`github.com/gin-gonic/gin`) atau **net/http** bawaan.
+- Gunakan UUID untuk ID tugas (`github.com/google/uuid`).
+- Validasi wajib: **title** dan **description** harus diisi.
+- Response harus dalam format **JSON**.
+- Berikan HTTP Status Code yang sesuai untuk setiap response.
+- Struktur project harus rapi (contoh: pisahkan controller, model, route).
+- Tambahkan minimal dokumentasi endpoint dalam README.
 
 ---
 
-## Testing
+## 🎯 Kriteria Penilaian
 
-Untuk testing manual, gunakan:
-- **Postman**
-- **cURL**
-- **Insomnia**
+| Aspek | Detail | Bobot |
+|:------|:-------|:-----|
+| Struktur Project | Modular dan rapi | 20% |
+| Implementasi CRUD | Semua endpoint berjalan | 30% |
+| Validasi & Error Handling | Ada dan sesuai | 20% |
+| Clean Code | Kode bersih, mudah dibaca | 15% |
+| Dokumentasi API | Jelas dan lengkap | 15% |
 
-Contoh dengan curl:
-```bash
-curl -X POST http://localhost:8080/tasks \
--H "Content-Type: application/json" \
--d '{"title": "Belajar Golang", "description": "Mempelajari REST API"}'
-```
+**Total: 100 poin**
+
+---
+
+## 🎁 Bonus (Opsional)
+
+- Membuat middleware sederhana (contoh: logging request).
+- Menambahkan pagination untuk `GET /tasks`.
+- Membuat Dockerfile untuk containerization.
+- Menulis unit testing sederhana.
+
+---
+
+
+
+
