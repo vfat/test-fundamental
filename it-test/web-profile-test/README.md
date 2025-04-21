@@ -1,3 +1,8 @@
+Clone project ini di
+```
+git clone -b it-test/web https://github.com/vfat/test-fundamental.git
+```
+
 # Web Profile Test - Level 2
 
 ## Deskripsi
