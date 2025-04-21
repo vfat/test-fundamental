@@ -27,8 +27,8 @@ Semua data tugas disimpan **sementara di memory** (dictionary).
 
 1. **Clone repository ini**:
    ```bash
-git clone -b it-test/backend https://github.com/vfat/test-fundamental.git
-cd task-manager-api-python
+      git clone -b it-test/backend https://github.com/vfat/test-fundamental.git
+      cd task-manager-api-python
    ```
 
 
