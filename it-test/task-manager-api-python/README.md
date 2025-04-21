@@ -27,30 +27,13 @@ Semua data tugas disimpan **sementara di memory** (dictionary).
 
 1. **Clone repository ini**:
    ```bash
-   git clone https://github.com/username/task-manager-api-fastapi.git
-   cd task-manager-api-fastapi
+git clone -b it-test/backend https://github.com/vfat/test-fundamental.git
+cd task-manager-api-python
    ```
 
-2. **Buat virtual environment (opsional tapi direkomendasikan)**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/Mac
-   venv\Scripts\activate     # Windows
-   ```
 
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-4. **Jalankan server**:
-   ```bash
-   uvicorn app.main:app --reload
-   ```
 
-5. **Akses API Documentation**:
-   - Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
-   - Redoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ---
 
