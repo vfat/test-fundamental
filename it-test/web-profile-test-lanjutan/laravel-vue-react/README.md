@@ -67,7 +67,7 @@ Gunakan skema ini:
 ### Tabel: `users`
 | Kolom      | Tipe Data |
 |------------|------------|
-| id         | UUID       |
+| id         | INT       |
 | name       | VARCHAR    |
 | email      | VARCHAR    |
 | password   | VARCHAR    |
@@ -75,15 +75,15 @@ Gunakan skema ini:
 ### Tabel: `skills`
 | Kolom    | Tipe Data |
 |----------|-----------|
-| id       | UUID      |
-| user_id  | UUID      |
+| id       | INT      |
+| user_id  | INT      |
 | name     | VARCHAR   |
 
 ### Tabel: `projects`
 | Kolom      | Tipe Data |
 |------------|-----------|
-| id         | UUID      |
-| user_id    | UUID      |
+| id         | INT      |
+| user_id    | INT      |
 | title      | VARCHAR   |
 | description| TEXT      |
 | link       | TEXT      |
@@ -92,7 +92,7 @@ Gunakan skema ini:
 ### Tabel: `contact_messages`
 | Kolom      | Tipe Data |
 |------------|-----------|
-| id         | UUID      |
+| id         | INT      |
 | name       | VARCHAR   |
 | email      | VARCHAR   |
 | message    | TEXT      |
