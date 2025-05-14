@@ -124,12 +124,4 @@ Gunakan skema ini:
 
 ---
 
-## ▶️ Contoh Perintah Menjalankan
 
-### Backend (Laravel)
-```bash
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
