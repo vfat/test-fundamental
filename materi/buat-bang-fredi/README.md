@@ -35,7 +35,7 @@
 
 | Faktor                         | **Informatika (UTD)**                                                                | **Sains Data**                                                      |
 | ------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
-| **Usia 32, fresh grad**        | Butuh *nilai jual tambahan* (spesialisasi mandiri + pengalaman kerja atau freelance) | Masih relevan — analis data banyak direkrut di usia 30+             |
+| **fresh grad**        | Butuh *nilai jual tambahan* (spesialisasi mandiri + pengalaman kerja atau freelance) | Masih relevan — analis data banyak direkrut di usia 30+             |
 | **Daya jual tanpa portofolio** | Lemah — ijazah Informatika tanpa skill fokus kurang kuat                             | Lebih kuat — portofolio analisis bisa langsung dipakai              |
 | **Peran cocok di industri**    | Junior dev jika berpengalaman luar, QA tester, support, web admin                    | Junior analyst, reporting, dashboard builder, AI support            |
 | **Perusahaan yang tertarik**   | Startup, software house kecil, instansi TI, lembaga pendidikan                       | Korporasi besar, BUMN, fintech, healthcare data, edukasi            |
