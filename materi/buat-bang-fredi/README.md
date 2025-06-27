@@ -51,5 +51,5 @@
 | Tingkat stres teknis / multitasking     | ✅ **Sains Data**                        |
 | Jalan cepat jadi spesialis              | ✅ **Sains Data**                        |
 | Peluang kerja remote / freelance        | ✅ **Sains Data**                        |
-| Cocok untuk usia 32 tahun               | ✅ **Sains Data**                        |
+| Cocok untuk usia 30+               | ✅ **Sains Data**                        |
 | Butuh banyak tambahan skill             | ❌ Informatika butuh ekstra bootcamp dll |
