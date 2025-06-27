@@ -155,12 +155,4 @@ Diagram Venn:
 | –      | selisih         |
 | '      | komplemen       |
 
----
 
-Jika kamu setuju, saya bisa bantu:
-
-* Buatkan **template worksheet latihan interaktif** (misalnya Google Docs/Google Form)
-* Tambahkan soal-soal HOTS (High Order Thinking Skills)
-* Lanjut ke **Modul 3: Relasi dan Fungsi**
-
-Ingin saya lanjutkan ke Modul 3?
