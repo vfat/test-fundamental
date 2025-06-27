@@ -1,7 +1,3 @@
-Baik! Berikut adalah versi **yang lebih sederhana dan mudah dipahami** dari **Modul 1: Logika Dasar**, ditujukan untuk siswa pemula (awam), misalnya pelajar SMA awal atau mahasiswa tahun pertama yang belum akrab dengan matematika formal.
-
----
-
 # 📘 Modul 1: Logika Dasar
 
 ---
@@ -175,12 +171,4 @@ Contoh lain:
 | P → Q  | Jika P maka Q           |
 | P ↔ Q  | P jika dan hanya jika Q |
 
----
 
-Kalau kamu mau, saya bisa bantu:
-
-* Membuat versi **Google Docs / PDF**
-* Menambahkan **ilustrasi** atau **animasi logika**
-* Membuat **kuis interaktif online**
-
-Lanjut ke Modul 2: **Teori Himpunan**?
